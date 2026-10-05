@@ -1,46 +1,68 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="de">
 <head>
-  <title>Basic Web Page</title>
-  <meta name="viewport" content="width=device-width,initial-scale=1" >
-  <link href="styles.css" rel="stylesheet">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Seyedsepehr Fatemi — Cybersecurity portfolio in German and English. Security Operations, Microsoft Security, cloud and hands-on labs.">
+  <meta name="theme-color" content="#08110f">
+  <title>Seyedsepehr Fatemi — Cybersecurity Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
 </head>
 <body>
- 
-  <script src="script.js"></script>
-
-  <div class="grid">
-    <div>
-      <img class="one" src="https://www.ndr.de/radiomv/bildersuche102_v-contentxl.jpg" width="300" height="400">
-
-
+  <div class="ambient ambient-a"></div>
+  <div class="ambient ambient-b"></div>
+  <header class="site-header" id="top">
+    <div class="container nav-wrap">
+      <a class="brand" href="#home" aria-label="Seyedsepehr Fatemi home"><span class="brand-mark">SF</span><span class="brand-text">seyedsepehr<span>.sec</span></span></a>
+      <button class="mobile-menu" aria-label="Open navigation" aria-expanded="false" aria-controls="site-nav"><span></span><span></span><span></span></button>
+      <nav id="site-nav" class="site-nav">
+        <a href="#about" data-i18n="nav.about">Über mich</a><a href="#projects" data-i18n="nav.projects">Projekte</a><a href="#journal" data-i18n="nav.journal">Journal</a><a href="#skills" data-i18n="nav.skills">Skills</a><a href="#contact" data-i18n="nav.contact">Kontakt</a>
+      </nav>
+      <div class="nav-actions"><button class="icon-btn" id="theme-toggle" aria-label="Toggle theme" title="Toggle theme">◐</button><button class="lang-switch" id="lang-toggle" aria-label="Switch language">EN</button></div>
     </div>
-    <div class="two">
-      <h4>
-        PERFUME
-      </h4> 
-      <h1>
-        Gabrielle<br>
-        Essence Eau<br>
-        Der Parfum<br>
-
-      </h1> 
-       <p>A floral, solar and voluptuous        interpretation compsed by Olivier Polge, Parfumer-Creator for the house of CHANEL</p>
- 
-      <h3>
-        $149.99
-      </h3> 
-      <h6>
-        $169.99
-      </h6> 
-      <button type="button">    <i class="material-icons">&#xe854;</i>
-Add to Cart</button>
- 
-    </div>
-
-  </div>
-
+  </header>
+  <main>
+    <section class="hero section" id="home">
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <div class="eyebrow"><span class="pulse-dot"></span><span data-i18n="hero.eyebrow">Open to cybersecurity opportunities</span></div>
+          <h1><span data-i18n="hero.hi">Hallo, ich bin</span><br><span class="gradient-text">Seyedsepehr.</span></h1>
+          <p class="hero-role" data-i18n="hero.role">Cybersecurity Analyst · Security Operations · Microsoft Security</p>
+          <p class="hero-description" data-i18n="hero.description">Ich dokumentiere, was ich lerne, baue praktische Security-Labs und entwickle Schritt für Schritt ein Portfolio, das aus Wissen echte Nachweise macht.</p>
+          <div class="hero-cta"><a class="btn btn-primary" href="#projects" data-i18n="hero.ctaProjects">Projekte ansehen <span>↗</span></a><a class="btn btn-ghost" href="#contact" data-i18n="hero.ctaContact">Kontakt aufnehmen</a></div>
+          <div class="hero-meta"><span><strong>DE</strong> B2</span><span><strong>EN</strong> Very good</span><span><strong>UTC+2</strong> Berlin</span></div>
+        </div>
+        <div class="hero-terminal reveal delay-1">
+          <div class="terminal-window glass-card">
+            <div class="terminal-bar"><div class="terminal-dots"><i></i><i></i><i></i></div><span>~/security/profile</span><span>● online</span></div>
+            <div class="terminal-body">
+              <div><span class="prompt">$</span> whoami</div><div class="terminal-result">seyedsepehr.fatemi</div>
+              <div><span class="prompt">$</span> focus --current</div><div class="terminal-result accent">SOC / Microsoft Security</div>
+              <div><span class="prompt">$</span> lab --status</div><div class="status-row"><span>Azure Security Lab</span><b>IN PROGRESS</b></div><div class="status-row"><span>Sentinel / KQL</span><b>LEARNING</b></div>
+              <div><span class="prompt">$</span> cat next.txt</div><div class="terminal-result muted">Build. Investigate. Document. Repeat.</div><span class="cursor"></span>
+            </div>
+          </div>
+          <div class="floating-chip chip-a">SIEM</div><div class="floating-chip chip-b">KQL</div><div class="floating-chip chip-c">Azure</div>
+        </div>
+      </div>
+      <div class="scroll-cue"><span></span><span data-i18n="hero.scroll">Scroll to explore</span></div>
+    </section>
+    <section class="section section-tight" id="about"><div class="container"><div class="section-heading reveal"><div class="section-kicker">01 / <span data-i18n="section.aboutKicker">PROFILE</span></div><h2 data-i18n="about.title">Von IT Support zu Cybersecurity</h2><p data-i18n="about.lead">Mein Fokus liegt auf praktischer Security Operations-Arbeit: Alerts verstehen, Systeme absichern, sauber dokumentieren und aus jedem Lab etwas wiederverwendbares bauen.</p></div><div class="about-grid">
+      <article class="about-card glass-card reveal"><span class="mini-label">BACKGROUND</span><h3 data-i18n="about.card1Title">IT Support + Trust & Safety</h3><p data-i18n="about.card1Text">Erfahrung mit IT-Support, Infrastruktur, Monitoring, Ticketbearbeitung, KYC, Fraud Prevention, IAM-Verifizierung und Dokumentation.</p></article>
+      <article class="about-card glass-card reveal delay-1"><span class="mini-label">CURRENT</span><h3 data-i18n="about.card2Title">Security Operations</h3><p data-i18n="about.card2Text">Aktueller Schwerpunkt: Microsoft Sentinel, KQL, Defender, Entra ID, Azure Security und praktische Alert-Untersuchungen.</p></article>
+      <article class="about-card glass-card reveal delay-2"><span class="mini-label">METHOD</span><h3 data-i18n="about.card3Title">Build → Investigate → Document</h3><p data-i18n="about.card3Text">Jedes Projekt soll nachvollziehbar zeigen, was eingerichtet, untersucht, verbessert und gelernt wurde.</p></article>
+    </div></div></section>
+    <section class="section" id="projects"><div class="container"><div class="section-heading reveal"><div class="section-kicker">02 / <span data-i18n="section.projectsKicker">PROJECTS</span></div><h2 data-i18n="projects.title">Labs & Security Projects</h2><p data-i18n="projects.lead">Praktische Arbeiten statt nur Zertifikate.</p></div><div id="project-filters" class="project-filters"></div><div id="projects-grid" class="projects-grid"></div></div></section>
+    <section class="section section-tight" id="journal"><div class="container"><div class="section-heading reveal"><div class="section-kicker">03 / <span data-i18n="section.journalKicker">JOURNAL</span></div><h2 data-i18n="journal.title">Field Notes</h2><p data-i18n="journal.lead">Kurze Einträge über Lernen, Labs und Fortschritt.</p></div><div id="journal-grid" class="journal-grid"></div></div></section>
+    <section class="section" id="skills"><div class="container"><div class="section-heading reveal"><div class="section-kicker">04 / <span data-i18n="section.skillsKicker">CAPABILITIES</span></div><h2 data-i18n="skills.title">Security Stack</h2></div><div class="skills-layout"><div class="skills-copy glass-card"><p data-i18n="skills.text">Technologien und Themen, die ich praktisch aufbaue und vertiefe.</p><div id="skill-cloud" class="skill-cloud"></div></div><div><div class="mini-label cert-heading">CERTIFICATIONS</div><div id="cert-grid" class="cert-grid"></div></div></div></div></section>
+    <section class="section" id="contact"><div class="container"><div class="contact-card glass-card"><div><div class="section-kicker">05 / CONTACT</div><h2 data-i18n="contact.title">Let’s connect.</h2><p data-i18n="contact.text">Für Cybersecurity, SOC, Microsoft Security, Labs und technische Projekte.</p></div><div class="contact-actions"><a class="btn btn-primary" href="mailto:hello@cybersepurity.de" data-i18n="contact.email">E-Mail</a><a class="btn btn-ghost" href="https://github.com/sepehr-sf" target="_blank" rel="noopener">GitHub ↗</a></div></div></div></section>
+  </main>
+  <footer><div class="container footer-wrap"><span>© <span id="year"></span> Seyedsepehr Fatemi</span><span>Build. Investigate. Document. Repeat.</span></div></footer>
+  <dialog id="project-modal"><div class="modal-card glass-card"><button id="modal-close" class="modal-close">×</button><div class="modal-label">PROJECT</div><h3 id="modal-title"></h3><p id="modal-description"></p><div class="modal-grid"><div><span class="mini-label">OBJECTIVE</span><p id="modal-objective"></p></div><div><span class="mini-label">NEXT</span><p id="modal-next"></p></div></div><div id="modal-tags" class="project-tags"></div></div></dialog>
+  <script src="data.js"></script><script src="script.js"></script>
 </body>
 </html>
