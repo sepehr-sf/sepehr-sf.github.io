@@ -1,47 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1536 1536" role="img" aria-labelledby="title desc">
   <title id="title">CyberSepurity</title>
   <desc id="desc">CyberSepurity — Cybersecurity, Defense, Solutions</desc>
-  <defs>
-    <linearGradient id="cyanBlue" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#18e9ff"/><stop offset=".48" stop-color="#0878ff"/><stop offset="1" stop-color="#18e9ff"/>
-    </linearGradient>
-    <linearGradient id="purple" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#416dff"/><stop offset=".55" stop-color="#8c39ff"/><stop offset="1" stop-color="#e12cff"/>
-    </linearGradient>
-    <linearGradient id="silver" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#fff"/><stop offset=".5" stop-color="#c9d0da"/><stop offset="1" stop-color="#6f7784"/>
-    </linearGradient>
-    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
-      <feGaussianBlur stdDeviation="10" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
-  </defs>
-
-  <!-- CP security mark -->
-  <g transform="translate(600 40)" filter="url(#glow)">
-    <path d="M0 0 L210 120 L120 172 L0 104 L-120 172 L-210 120 Z" fill="url(#cyanBlue)"/>
-    <path d="M-210 120 L-120 172 L-120 330 L-34 380 L-34 276 L-120 226 L-120 172 Z" fill="url(#cyanBlue)"/>
-    <path d="M0 104 L0 262 L-34 276 L-34 380 L88 450 L88 330 L0 279 Z" fill="url(#purple)"/>
-    <path d="M0 104 L120 172 L120 226 L34 276 L34 330 L122 280 L122 174 Z" fill="url(#silver)"/>
-    <path d="M34 276 L122 226 L122 330 L34 380 Z" fill="url(#silver)"/>
-    <path d="M-120 226 L-34 276 L34 330 L-34 380 L-122 330 Z" fill="#06101c"/>
-    <path d="M-300 120h48v48h-48zM-345 170h34v34h-34zM-285 205h56v56h-56zM-235 128h34v34h-34z" fill="url(#cyanBlue)"/>
-  </g>
-
-  <!-- wordmark -->
-  <g transform="translate(600 620)" text-anchor="middle" font-family="Arial Black, Arial, sans-serif" font-weight="900" font-size="104" letter-spacing="-5">
-    <text x="-265" y="0" fill="#f4f6f8">CyberSe</text>
-    <text x="125" y="0" fill="url(#cyanBlue)">C</text>
-    <text x="205" y="0" fill="url(#purple)">P</text>
-    <text x="330" y="0" fill="#f4f6f8">urity</text>
-  </g>
-
-  <!-- tagline -->
-  <g transform="translate(600 710)" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" letter-spacing="9" fill="#e9edf2">
-    <text x="0" y="0">CYBERSECURITY</text>
-    <circle cx="285" cy="-8" r="7" fill="#12dff4"/>
-    <text x="410" y="0">DEFENSE</text>
-    <circle cx="555" cy="-8" r="7" fill="#12dff4"/>
-    <text x="690" y="0">SOLUTIONS</text>
-  </g>
+  <image href="cybersepurity-logo.webp" x="0" y="0" width="1536" height="1536" preserveAspectRatio="xMidYMid meet"/>
 </svg>
