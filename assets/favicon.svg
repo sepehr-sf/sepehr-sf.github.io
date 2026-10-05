@@ -1,1 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect width="64" height="64" rx="14" fill="#06100e"/><path d="M17 20h30v8H26v8h17v8H26v8h21v8H17z" fill="#82f6bf"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+<defs><linearGradient id="g" x1="8" y1="8" x2="56" y2="56" gradientUnits="userSpaceOnUse"><stop stop-color="#00e5ff"/><stop offset=".55" stop-color="#1685ff"/><stop offset="1" stop-color="#a000ff"/></linearGradient></defs>
+<rect width="64" height="64" rx="14" fill="#050914"/>
+<path d="M32 7 52 15v15c0 13.2-8.2 22.8-20 28C20.2 52.8 12 43.2 12 30V15z" fill="#071426" stroke="url(#g)" stroke-width="3"/>
+<path d="M24 25h16a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H24a5 5 0 0 1-5-5V30a5 5 0 0 1 5-5Z" fill="none" stroke="url(#g)" stroke-width="3"/>
+<path d="M25 25v-4a7 7 0 0 1 14 0v4" fill="none" stroke="#8cecff" stroke-width="3" stroke-linecap="round"/>
+<circle cx="32" cy="35" r="2.5" fill="#fff"/><path d="M32 37.5v3" stroke="#fff" stroke-width="2" stroke-linecap="round"/>
+<path d="M8 23h5M51 23h5M8 41h5M51 41h5" stroke="url(#g)" stroke-width="2" stroke-linecap="round"/>
+<circle cx="8" cy="23" r="2" fill="#00e5ff"/><circle cx="56" cy="23" r="2" fill="#1685ff"/><circle cx="8" cy="41" r="2" fill="#1685ff"/><circle cx="56" cy="41" r="2" fill="#a000ff"/>
+</svg>
